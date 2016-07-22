@@ -1,0 +1,1 @@
+ADD CONSTRAINT `proyecto_urban_rutas_puntos_ibfk_1` FOREIGN KEY (`PROYECTO_URBAN_RUTAS_PUNTO_ID`) REFERENCES `proyecto_urban_rutas` (`PROYECTO_URBAN_RUTA_ID`);
