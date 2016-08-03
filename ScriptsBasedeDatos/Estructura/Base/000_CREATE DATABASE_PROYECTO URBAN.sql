@@ -1,1 +1,1 @@
-create database PROYECTO_URBAN;
+create database proyecto_urban;

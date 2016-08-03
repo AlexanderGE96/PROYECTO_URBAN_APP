@@ -7,19 +7,19 @@ class Usuario
 	private $contrasena;
 	
 	public function setIdusuario($idusuario){
-		$this->idusuario = $idusuario;
+		$this->proyecto_urban_usuario_id = $idusuario;
 	}
 
 	public function getIdusuario(){
-		return $this->idusuario;
+		return $this->proyecto_urban_usuario_id;
 	}
 
 	public function setNombre($nombreusuario){
-		$this->nombreusuario = $nombreusuario;
+		$this->nombre_usuario = $nombreusuario;
 	}
 
 	public function getNombre(){
-		return $this->nombreusuario;
+		return $this->nombre_usuario;
 	}
 
 	public function setCorreo($correo){
@@ -37,8 +37,6 @@ class Usuario
 	public function getClave(){
 		return $this->contrasena;
 	}
-
-
 
 }
 

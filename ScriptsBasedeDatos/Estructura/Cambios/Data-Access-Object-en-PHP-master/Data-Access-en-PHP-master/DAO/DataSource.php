@@ -7,12 +7,10 @@ class DataSource
 	 * Metodo contructor para iniciar nuestra conexion con la base de datos.
 	 **/
 	public function __construct(){
-		try{
-			$this->cadenaConexion = "mysql:host=localhost;urban";
-			$this->conexion = new PDO($this->cadenaConexion,"root","");
-		}catch(PDOException $e){
-			echo $e->getMessage();
-		}
+	   
+            $myfile = fopen("conexion.txt", "r") or die("Archivo Inaccesible!");
+            echo fread($myfile,filesize("conexion.txt"));
+            fclose($myfile);
 	}
 	/**
 	 * Metodo que nos permitira traer un registro de nuestra base de datos.

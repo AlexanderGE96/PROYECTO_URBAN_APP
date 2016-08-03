@@ -1,8 +1,8 @@
 CREATE TABLE IF NOT EXISTS `proyecto_urban_autobuses` (
-  `PROYECTO_URBAN_AUTOBUS_ID` int(11) NOT NULL AUTO_INCREMENT,
-  `Modelo` varchar(50) NOT NULL,
-  `Año` int(11) NOT NULL,
-  `Capacidad` int(11) NOT NULL,
-  PRIMARY KEY (`PROYECTO_URBAN_AUTOBUS_ID`),
-  KEY `PROYECTO_URBAN_AUTOBUS_ID` (`PROYECTO_URBAN_AUTOBUS_ID`)
+  `proyecto_urban_autobuses_id` int(11) NOT NULL AUTO_INCREMENT,
+  `modelo` varchar(50) NOT NULL,
+  `año` int(11) NOT NULL,
+  `capacidad` int(11) NOT NULL,
+  PRIMARY KEY (`proyecto_urban_autobuses_id`),
+  KEY `proyecto_urban_autobuses_id` (`proyecto_urban_autobuses_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
